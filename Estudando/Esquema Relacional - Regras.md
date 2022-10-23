@@ -6,7 +6,7 @@
 
   - p/ cada atributo simples representar
   - para cada atributo composto decompor m seus atributos simples
-  - identificar a chave primaria [sublinhar]
+  - identificar a chave primaria e[sublinhar]
   - atributos multivalorados vão para outra relação
 
 - IDENTIFICAR CARDINALIDADES 1x1
