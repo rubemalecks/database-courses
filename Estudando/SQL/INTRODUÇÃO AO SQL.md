@@ -1,5 +1,9 @@
 # SQL (_Structure Query Language_)
 
+![SQL](../img/SQL_1232.png)
+
+
+
 É uma linguagem abrangente, possui comandos para:
 
 - Definição
@@ -14,9 +18,9 @@ Pode ser vista em duas divisões:
 > - O núcleo dever ser implementados por todos os SGBDs.
 > - Os pacotes ...
 
-## Subgrupos da linguagem SQL:
+## Subgrupos da linguagem SQL
 
-### Principais:
+### Principais
 
 - DDL
 - DML
@@ -25,7 +29,7 @@ Pode ser vista em duas divisões:
 - DCL
 - DTL
 
-# **DML** - Linguagem de Definição de Dados (_Data Definition Language_)
+# **DDL** - Linguagem de Definição de Dados (_Data Definition Language_)
 
 - Especifica o esquema do Banco de Dados
 - Responsável pela criação, alteração e exclusão de tabelas
@@ -51,12 +55,12 @@ Pode ser vista em duas divisões:
 - Responsável pelo gerenciamento das diferentes transações de uma banco de dados;
 
 # COMANDOS BÁSICOS SQL
+## DEFINIÇÃO DE DADOS (DDL)
+  - CREATE (criar)
+  - ALTER (alterar)
+  - DROP (apagar a tabela)
 
-- CREATE (criar)
-- ALTER (alterar)
-- DROP (apagar a tabela)
-
-# MANIPULAÇÃO DE DADOS (MDL)
+## MANIPULAÇÃO DE DADOS (MDL)
 
 > comandos usados pelo usuário comum
 
@@ -64,7 +68,8 @@ Pode ser vista em duas divisões:
 - UPDATE (atualizar)
 - DELETE/REMOVE (deletar o dado)
 
-# SELEÇÃO DE DADOS (DQL/DML)
+## SELEÇÃO DE DADOS (DQL OU DML)
+> ALGUNS AUTORES JUNTAM O DQL AO DML
 
 - **SELECT**
   - DISTINCT (distinção)
@@ -77,24 +82,31 @@ Pode ser vista em duas divisões:
   - +, -, \*, / (Comandos aritméticos)
   - ORDER BY (ASC, DESC) _ordenar os dados(ascendente ou descendente_)
 
-# CONTROLE DE DADOS (DTL)
+## CONTROLE DE DADOS (DCL)
 
 - GRANT (_atribuir permissão_)
 - REVOKE (_revogar permissão_)
 
-# TRANSAÇÃO DE DADOS (TDL)
+## TRANSAÇÃO DE DADOS (TDL)
 
 - COMMIT (_consolidar transação / executa os comandos em definitivo_)
 - ROLLBACK (_desfazer_)
 - SAVEPOINT (_ponto de salvamento na transação_)
 
-# TIPOS DE DADOS
+# TIPOS DE DADOS SQL
+
+### TIPOS PRIMITIVOS SQL
+
+![tipos primitivos](../img/TiposPrimitivosSQL.png)
 
 - NÚMERICOS:
 
-  - Inteiro
-  - Real
-  - Lógico
+  - Inteiros
+  - Ponto Flutuante(Real)
+  - Decimal
+    - Decimal(i, j) onde i é o número total de dígitos decimais e j, refere-se ao total de digitos depois da virgula
+- CADEIA DE CARACTERES
+- BOOLEANOS: TRUE, FALSE OU UNKNOWN
 
 - DATE
 
@@ -105,6 +117,3 @@ Pode ser vista em duas divisões:
 - BLOB (binary large object): Armazena imagens, vídeos e áudio.
 - CLOB (character large object): Armazena textos, no formato de livros disponíveis no ORACLE e DB2 (SQL-99)
 
-# TIPOS PRIMITIVOS SQL
-
-![tipos primitivos](img/TiposPrimitivosSQL.png)
