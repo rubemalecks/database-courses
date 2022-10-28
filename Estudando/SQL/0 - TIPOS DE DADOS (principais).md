@@ -24,10 +24,16 @@ VARCHAR OU NVARCHAR <- (tamanho variavel) permite inserir até uma quantidade de
     3 - MEDIUMINT [-8388608 até 8388607]	
     4 - INT [-2147483648]
     5 - BIGINT [-2**63 até (2**63)-1	]
-    6 - NUMERIC / DECIMAL - Valores exatos, porém permite ter parte fracionada. Permitem ser especificada sua escala, que é o numero de digitos da parte fracionada. Ex: (5,2) 113,44.
+    6 - NUMERIC / DECIMAL - Valores exatos, porém permite ter parte fracionada. Permitem ser especificada sua "precisão" (digitos armazenados) e "escala" (o numero de digitos da parte fracionada). Ex: NUMERIC (5,2) 113,44.
 
 ## Valores Aproximados 
-    1. REAL (até 15 digitos)
-    2. FLOAT (mesma coisa)
+    1. REAL (precisão aprox. até 15 digitos)
+    2. FLOAT (precisão aprox. até 15 digitos)
 
-## 3. Temporais
+## 4. Temporais
+    1. DATE - data no formato (aaaa/mm/dd)
+    2. DATETIME - data e horas (aaaa/mm/dd:hh:mm:ss)
+    3. DATETIME2 - data, horas e milissegundos(aaaa/mm/dd:hh:mm:sssssss)
+    4. SMALLDATETIME - data, horas ENTRE ('1900-01-01:00:00:00' até '2079-06-06:23:59:59')
+    5. TIME - horas, minutos, segundos e milissegundos ENTRE '00:00:00.0000000' ATÉ '23:59:59.9999999'
+    6. DATETIMEOFSET - datas, horas e fuso horário
