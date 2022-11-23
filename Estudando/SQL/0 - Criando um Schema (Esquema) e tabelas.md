@@ -12,6 +12,7 @@
 ## ou
 ![selectSchema](../img/select%20schema2.png)
 - 1º - Selecionar o esquema via linha de comando (_USE SCHEMA_);
+    - OU _USE DATABASE_;
 
 
 ## CRIANDO TABELA
