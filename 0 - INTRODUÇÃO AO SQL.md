@@ -1,6 +1,6 @@
 # SQL (_Structure Query Language_)
 
-![SQL](../img/SQL_1232.png)
+![SQL](img/SQL_1232.png)
 
 
 
@@ -97,7 +97,7 @@ Pode ser vista em duas divisões:
 
 ### TIPOS PRIMITIVOS SQL
 
-![tipos primitivos](../img/TiposPrimitivosSQL.png)
+![tipos primitivos](img/TiposPrimitivosSQL.png)
 
 - NÚMERICOS:
 

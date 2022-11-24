@@ -1,16 +1,16 @@
 # CRIANDO UM ESQUEMA
 
-![SCHEMA](../img/CRIANDO%20SCHEMA.png)
+![SCHEMA](img/CRIANDO%20SCHEMA.png)
 
 # CRIANDO TABELAS
 
-![CLUBE](../img/table_base1.png)
+![CLUBE](img/table_base1.png)
 ### USAREMOS ESTE ESQUEMA COMO BASE
 
-![selecSchema](../img/select%20schema.png)
+![selecSchema](img/select%20schema.png)
 - 1º - Selecionar o esquema clicando;
 ## ou
-![selectSchema](../img/select%20schema2.png)
+![selectSchema](img/select%20schema2.png)
 - 1º - Selecionar o esquema via linha de comando (_USE SCHEMA_);
     - OU _USE DATABASE_;
 
@@ -31,7 +31,7 @@ PRIMARY KEY (ID_LIVRO)
 );
 ```
 
-![primaryTable](../img/PRIMEIRATABLE.png)
+![primaryTable](img/PRIMEIRATABLE.png)
 
 - NOTE AO FINAL FOI DEFINIDO  A CHAVE PRIMARIA.
 
