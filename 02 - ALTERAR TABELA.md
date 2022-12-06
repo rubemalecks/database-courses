@@ -16,7 +16,7 @@ DROP COLUMN sexo;
 
 Por padrão essa coluna fica com valores null, caso não sejam adicionados ... visto também que são novos.
 
-### RENOMEAR E/OU ALTERAR TIPO
+### RENOMEAR CAMPO DA TABELA E/OU ALTERAR TIPO
 
 ```sql
 ALTER TABLE DEPARTAMENTO CHANGE SGL SIGLA CHAR(5) NOT NULL;
